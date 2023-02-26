@@ -1,0 +1,46 @@
+.user-card{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #111;
+    margin-bottom: 4rem;
+    gap: 1rem;
+    color: #f1f1ff;
+    border-radius: 2rem;
+}
+
+ h3{
+    font-size: 30px;
+ }
+#userPhoto{
+    border-radius: 100%;
+    width: 200px;
+}
+.user-info{
+    text-align: center;
+    gap: 1rem;
+}
+
+.user-info p {
+    margin-top: 0.5rem;
+    font-size: 20px;
+    padding: 5px;
+}
+.info-icon{
+    font-size: 20px;
+  
+}
+
+@media (max-width:400px) {
+    .user-card{
+        width: 400px;
+        height: 600px;
+    }
+
+    #userPhoto{
+        width: 100px;
+    }
+}
